@@ -1,0 +1,281 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Bud Light Product Locator - Feature Component</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/animate.css">        
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/materialize-icons.css">     
+        <link rel="stylesheet" href="css/locator/style.css">  
+        <link rel="stylesheet" href="css/pin.css">  
+        <link rel="stylesheet" href="css/jquery-ui.min.css">  
+		<link rel="stylesheet" href="css/bootstrap-theme.css">        
+                
+		<meta property="og:url"           content="http://www.gustavoatar.com/budlight/detroit-lions-bud-light-team-can.html" />
+		<meta property="og:type"          content="website" />
+		<meta property="og:title"         content="Bud Light Detroit Lions Team Can - Share a Brew" />
+		<meta property="og:description"   content="Have a cold one my friend tonight in honor of the Detroit Lions" />
+		<meta property="og:image"         content="http://www.gustavoatar.com/budlight/images/Lions.jpg" />
+    </head>
+	<body>
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=885127841512620";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>	
+<!-- 
+	<h1 class="title">Bud Light Product Locator - Feature Component</h1>
+	<a href="#specs" class="specs"></a>
+	<a href="index.html" class="home-btn"></a>
+ -->
+	<div class="locator">
+	<br />
+
+		<div class="locator-holder">
+		    <h2 class="uppercase bold center-text">Good Afternoon<span class="user-name">, Gustavo</span></h2>
+			<h3 class="center-text entry-title">The best brews are right around the corner from a happy hour near, <span class="location-shown result"><div class="loader animated"><svg width='30px' height='30px' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="uil-default"><rect x="0" y="0" width="100" height="100" fill="none" class="bk"></rect><rect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#000000' transform='rotate(0 50 50) translate(0 -28)'>  <animate attributeName='opacity' from='1' to='0' dur='.7s' begin='0s' repeatCount='indefinite'/></rect><rect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#000000' transform='rotate(36 50 50) translate(0 -28)'>  <animate attributeName='opacity' from='1' to='0' dur='.7s' begin='0.06999999999999999s' repeatCount='indefinite'/></rect><rect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#000000' transform='rotate(72 50 50) translate(0 -28)'>  <animate attributeName='opacity' from='1' to='0' dur='.7s' begin='0.13999999999999999s' repeatCount='indefinite'/></rect><rect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#000000' transform='rotate(108 50 50) translate(0 -28)'>  <animate attributeName='opacity' from='1' to='0' dur='.7s' begin='0.20999999999999996s' repeatCount='indefinite'/></rect><rect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#000000' transform='rotate(144 50 50) translate(0 -28)'>  <animate attributeName='opacity' from='1' to='0' dur='.7s' begin='0.27999999999999997s' repeatCount='indefinite'/></rect><rect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#000000' transform='rotate(180 50 50) translate(0 -28)'>  <animate attributeName='opacity' from='1' to='0' dur='.7s' begin='0.35s' repeatCount='indefinite'/></rect><rect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#000000' transform='rotate(216 50 50) translate(0 -28)'>  <animate attributeName='opacity' from='1' to='0' dur='.7s' begin='0.41999999999999993s' repeatCount='indefinite'/></rect><rect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#000000' transform='rotate(252 50 50) translate(0 -28)'>  <animate attributeName='opacity' from='1' to='0' dur='.7s' begin='0.48999999999999994s' repeatCount='indefinite'/></rect><rect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#000000' transform='rotate(288 50 50) translate(0 -28)'>  <animate attributeName='opacity' from='1' to='0' dur='.7s' begin='0.5599999999999999s' repeatCount='indefinite'/></rect><rect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='#000000' transform='rotate(324 50 50) translate(0 -28)'>  <animate attributeName='opacity' from='1' to='0' dur='.7s' begin='0.63s' repeatCount='indefinite'/></rect></svg></div></span><a class="blue edit-shown" href="#vmodal">&nbsp;<i class="fa fa-map-marker fa-2"></i>&nbsp;Edit</a></h3>
+			<div class="cans">
+				<ul class="cards-split">
+				  <li class="card card-1"><span class="share">
+					<div class="fb-share-button" style="position: absolute; opacity: 0;" data-href="http://www.gustavoatar.com/budlight/detroit-lions-bud-light-team-can.html" data-layout="button" data-size="large" data-mobile-iframe="false"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fhttp%2Fwww.budlight.com%2Fcontent%2Fbudlight%2Fen%2Fnfl%2Fjcr%3Acontent%2FcontentPar%2Fsecondarycarousel%2Fsecondarycarousel5%2Fimage.img.jpg%2FLions.jpg&amp;src=sdkpreparse"></a></div>
+					</span><img src="images/budlight-bl.png"/>
+				  </li>
+				  <li class="card card-2"><span class="share">
+				  <div class="fb-share-button" style="position: absolute; opacity: 0;"  data-href="http://www.gustavoatar.com/budlight/detroit-lions-bud-light-team-can.html" data-layout="button" data-size="large" data-mobile-iframe="false"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fhttp%2Fwww.budlight.com%2Fcontent%2Fbudlight%2Fen%2Fnfl%2Fjcr%3Acontent%2FcontentPar%2Fsecondarycarousel%2Fsecondarycarousel5%2Fimage.img.jpg%2FLions.jpg&amp;src=sdkpreparse"></a></div>
+				  </span><img src="images/cleveland-bl.png"/>
+				  </li>
+				  <li class="card card-3"><span class="share">
+				  <div class="fb-share-button" style="position: absolute; opacity: 0;"  data-href="http://www.gustavoatar.com/budlight/detroit-lions-bud-light-team-can.html" data-layout="button" data-size="large" data-mobile-iframe="false"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fhttp%2Fwww.budlight.com%2Fcontent%2Fbudlight%2Fen%2Fnfl%2Fjcr%3Acontent%2FcontentPar%2Fsecondarycarousel%2Fsecondarycarousel5%2Fimage.img.jpg%2FLions.jpg&amp;src=sdkpreparse"></a></div>
+				  </span><img src="images/lions-bl.png"/></li>
+					<button class="delivery">&nbsp;Beer Delivery&nbsp;&nbsp;</button>
+				</ul>
+			</div>
+				<div class="overlay">
+					<div class="partner">
+						<h1>Beer, right to your doorstep.</h1>
+						<h2>Based on your location our<br />featured delivery partner is: </h2>
+						<a href="https://drizly.com/i/KARANORTON" target="_blank"><img src="images/drizly.png" class="driz block center-text" /></a>
+					
+						<div class="copy-promo">
+							<input placeholder="BLPROMO" type="text" disabled />
+							<button class="copy-code reverse">Copy <i aria-hidden="true" class="fa fa-files-o fa-2"></i></button>					
+											<br /><hr />
+
+						</div>
+						<a href="#" class="close-delivery close"><i aria-hidden="true" class="fa fa-times fa-5"></i></a>
+						<a class="button outline" href="https://drizly.com/i/KARANORTON" target="_blank">Go to Drizly.com <i aria-hidden="true" class="fa fa-external-link fa-2"></i></a>					
+					</div>
+					<div class="social-share">
+						<a href="#" class="close-social close"><i aria-hidden="true" class="fa fa-times fa-5"></i></a>
+						<h1>Share one, or get it delivered.</h1>
+						<h2>NFL team cans are available to share with<br />your friends thru the interwebs.</h2>
+						<button class="50percent">Get Delivery Now</button>
+						<button class="outline 50percent">Show all NFl team cans</button>
+					</div>
+			
+				</div>
+
+			<div class="tab-holder">
+				<div class="tab">
+					<ul class="tabs">
+						<li><a href="#">Night Out</a></li>
+						<li><a href="#">Night In</a></li>
+					
+					</ul> <!-- / tabs -->
+
+					<div class="tab_content">
+						<div class="tabs_item">
+							<div class="nearest">
+								<div class="vcard">
+									<span class="fn n"><span class="given-name"></span> <span class=
+									"additional-name"></span> <span class="family-name"></span></span>
+									<div class="org">
+										<strong>Norm's Field of Dreams Bar</strong>
+									</div>
+									<div class="adr">
+										<div class="street-address">
+											1090 ROCHESTER RD
+										</div><span class="locality">TROY</span> <span class=
+										"region">MI</span> <span class="postal-code">48083</span>
+									</div>
+									<span class="call"><a href="tel:248-281-2293">248-281-2293</a></span>
+									<div class="directions">
+									<button>Get Directions</button><button class="outline blue">All Results</button>
+									
+									</div>
+								</div>
+								<div class="map">
+		<!-- 
+										<a href="#"><img src="images/distance.png" class="img"></a><a href="#" class="map-holder">
+		-->
+										<div class="pin"></div>
+										<div class="pulse"></div><img src="images/map.png" class="animated fadeIn map-icon"></a>
+										<p class="small miles-away">1.1 Miles Away</p>
+								</div>																							
+							</div>	
+						</div> <!-- / tabs_item -->
+
+						<div class="tabs_item">
+							<div class="nearest">
+								<div class="vcard">
+									<span class="fn n"><span class="given-name"></span> <span class=
+									"additional-name"></span> <span class="family-name"></span></span>
+									<div class="org">
+										<strong>Kroger</strong>
+									</div>
+									<div class="adr">
+										<div class="street-address">
+											11155 Long Lake Rd
+										</div><span class="locality">TROY</span> <span class=
+										"region">MI</span> <span class="postal-code">48098</span>
+									</div>
+									<span class="call"><a href="tel:248-281-2293">248-281-2293</a></span>
+									<div class="directions">
+									<button>Get Directions</button>
+											<button href="#" class="outline blue">All Results</button>
+									
+									</div>
+								</div>
+								<div class="map">
+		<!-- 
+										<a href="#"><img src="images/distance.png" class="img"></a><a href="#" class="map-holder">
+		-->
+										<div class="pin"></div>
+										<div class="pulse"></div><img src="images/map.png" class="animated fadeIn map-icon"></a>
+										<p class="small miles-away">.9 Miles Away</p>
+								</div>																							
+							</div>																		
+						</div> <!-- / tabs_item -->
+						<div class="tabs_item">
+							<fieldset>
+								<legend>EDIT LOCATION</legend>
+									<input type="number" pattern="[0-9]{5}" name="zipcode" placeholder="Enter Your Zip Code" maxlength="5" class="form-control form-redesign zip-code-input" tabindex="1" max="99999" required="">
+								
+									<button type="submit" value="Submit" tabindex="4">ENTER</button>
+								
+												<br /><a href="#" class="find-mylocation">Find my location <i aria-hidden="true" class="fa fa-map-marker fa-2"></i></a>					
+									<br />			
+							</fieldset>	
+
+						</div> <!-- / tabs_item -->
+					</div> <!-- / tab_content -->
+				</div>	
+			</div>
+		</div>
+	</div>
+	<!-- 
+<div class="products">
+		<div class="product selected">
+			<a href="#"><img src="images/product.png" />
+			<p class="small center-text">Bud Light</p></a>
+		</div>
+		<div class="product">
+			<a href="#"><img src="images/product.png" />
+			<p class="small center-text">Bud Light Lime</p>	</a>	
+		</div>
+		<div class="product">
+			<a href="#"><img src="images/product.png" />
+			<p class="small center-text">Bud Light Platinum</p>	</a>	
+		</div>
+		<div class="product">
+			<a href="#"><img src="images/product.png" />
+			<p class="small center-text">Chelada</p>	</a>	
+		</div>	
+		<div class="product">
+			<a href="#lime" class="page-scroll"><img src="images/product.png" />
+			<p class="small center-text">Lime-A-Rita</p>	</a>	
+		</div>
+	</div>
+ -->		
+
+<div class="row stream">
+	<!-- 
+<div class="col-md-12 center-block" style="float:none;">
+		<div class="pallet pick-your-emoji">
+		    <h2 class="uppercase bold center-text">Share the bud light love</h2>
+			<h4>Add some Bud Light to your profile pic</h4>
+			<br />
+			<div class="icon-personalize-holder">
+				<img src="images/fbprofileicon.jpg" class="icon-personalize" width="100" height="100" />
+			</div>
+			<p class="lead center-text uppercase">Pick your emoji</p>
+			<ul class="nav nav-pills center-block" role="tablist">
+			  <li role="presentation" class="active"><a href="#">Mugger <span class="badge"><i aria-hidden="true" class="black fa fa-beer fa-3"></i></span></a></li>
+			  <li role="presentation"><a href="#">Organizer <span class="badge"><i aria-hidden="true" class="fa fa-birthday-cake fa-3"></i></span></a></li>
+			  <li role="presentation"><a href="#">Lover <span class="badge"><i aria-hidden="true" class="fa fa-heart fa-3"></i></span></a></li>
+			  <li role="presentation"><a href="#">Gifter <span class="badge"><i aria-hidden="true" class="fa fa-gift fa-3"></i></span></a></li>
+			  <li role="presentation"><a href="#">Partyer <span class="badge"><i aria-hidden="true" class="fa fa-grav fa-3"></i></span></a></li>
+			</ul>	
+			<div class="center-block center-text col-md-8 col-md-offset-4" style="float: none;">
+				<h3 class="lead bold">Upload to </h3>
+				<button class="register center-text"><i aria-hidden="true" class="fa fa-facebook fa-3"></i></button>
+				<button class="register center-text"><i aria-hidden="true" class="fa fa-google fa-3"></i></button>
+				<button class="register center-text"><i aria-hidden="true" class="fa fa-instagram fa-3"></i></button>
+			<div class="reward center-text animated col-md-2 center-block"  style="float: none;">
+					<h4 class="bold">+ 2,500</h4>
+					<p class="small uppercase">points</p>
+				</div>
+			</div>	
+			
+		</div>			
+	</div>
+ -->
+	<div class="col-md-8 center-block text-left guestsignup padding-vert" style="float:none;">
+		<div class="pallet row text-left">
+		    <h2 class="uppercase pull-left text-left block-level width100"><strong>April 26th</strong> is a special day</h2>
+		    <br />
+			<p class="pull-left lead text-left padding-vert block-level width66 guest-beer hide">Let us send you a cold one on your birthday and when you sign up you also get free shipping, coupons, rewards and more.</p>
+			<p class="pull-left lead text-left padding-vert block-level width66 member-beer hide">We want to celebrate with you, claim your birthday beer below.</p>
+
+			<br />
+			<br /><br /><br /><br /><br /><br />
+		    <button class="pull-left hide member-beer">Claim It</button>
+
+		    <button class="pull-left hide guest-beer">Sign Up</button>
+		    	<img src="images/rectangle.png" class="position-right block-level" width="200" height="340" />
+		    	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+		    </div>
+		</div>			
+	</div>		
+	<div class="col-md-8 center-block" style="float:none;">
+		<div class="pallet">
+		    <h2 class="uppercase bold center-text">Lorem ipsum doler emit.</h2>
+			<h4>Freaud ipsum samit doler.</h4>
+			<br />
+		    <img src="images/rectangle.png" class="center-block center-text" width="200" height="100" />
+			<br />
+		    <button>Se Neau</button>
+		</div>			
+	</div>			
+</div>	
+<div id="vmodal">
+  <a class="cerrar" href="#cerrar"> <i aria-hidden="true" class="fa fa-times"></i></a>
+	<fieldset>
+		<legend>EDIT <i aria-hidden="true" class="fa fa-map-marker"></i></legend>
+			<input type="number" pattern="[0-9]{5}" name="zipcode" placeholder="Zip Code" maxlength="5" class="form-control form-redesign zip-code-input" tabindex="1" max="99999" required="">
+	
+			<a href="locator-all-results.html" class="button" type="submit" value="Submit" tabindex="4">ENTER <i aria-hidden="true" class=
+					"fa fa-angle-right fa-2"></i></a>
+	
+						<br /><a href="#" class="find-mylocation">Find my location <i aria-hidden="true" class="fa fa-map-marker fa-2"></i></a>					
+			<br />			
+	</fieldset>	  	  
+</div>	
+   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+   <script src="js/locator/index.js"></script>
+   <script src="js/jquery.easing.min.js"></script>
+   <script src="js/jquery-ui.min.js"></script>
+    
+    
+    
+  </body>
+</html>
