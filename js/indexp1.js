@@ -104,6 +104,7 @@ jQuery(document).ready(function($){
 		jQuery('footer.memberfooter').removeClass('hide').addClass('fadeIn');	
 		jQuery('nav').removeClass('hide').addClass('slideInDown');	
 		jQuery('.member-beer').removeClass('hide');
+		jQuery('.member-friends').removeClass('hide').addClass('fadeInUp');		
 		jQuery('.locator').removeClass('hide').addClass('fadeIn');	
 		jQuery('.pencil').addClass('hide').addClass('fadeOutUp');	
 				
@@ -142,6 +143,7 @@ jQuery(document).ready(function($){
 		jQuery('.age-gate').addClass('fadeOutUp').remove();
 		jQuery('.entry').addClass('fadeOutUp').remove();
 		jQuery('.pick-your-emoji').addClass('hide');
+		jQuery('.guest-friends').removeClass('hide').addClass('fadeInUp');
 		jQuery('.sign-up-emoji').removeClass('hide');
 		jQuery('footer.guestfooter').removeClass('hide');
 		jQuery('nav').removeClass('hide').addClass('slideInDown');	

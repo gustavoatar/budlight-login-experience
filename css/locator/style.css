@@ -773,27 +773,6 @@ button.reverse.load-more {
     margin-left: 40px;
     margin-bottom: 20px;
 }
-.close:link,
-.close:active,
-.close:visited {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    font-size: 1.4em;
-    border-radius: 50%;
-    width: 44px;
-    height: 44px;
-    line-height: 40px;
-    color: white;
-    border: 2px solid #fff;
-    transition: .6s all;
-    opacity: 1;
-}
-.close:hover {
-    background: gray;
-    color: black;
-    transition: .6s all;
-}
 .tabs button {
     float: left;
 }
@@ -1180,6 +1159,7 @@ ul.cards-split-delay.transition li.card.card-3 {
 .find-us .products {
     margin: 14px auto;
 }
+.no-bg { background: none; }
 .tabs li {
     float: left;
     line-height: 38px;
@@ -1806,7 +1786,6 @@ a.edit-location-map:hover {
 	background: #fff;
 	padding: 20px;
 	text-align: center;
-	border-bottom: 1px solid #ddd;
 }
 
 .nav-pills {
